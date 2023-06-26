@@ -1,0 +1,83 @@
+/* Center everything */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Set black and gold accents */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 25%;
+    background-color: black;
+    color: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .icon {
+    margin-left: 10px;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .mission {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: gold;
+  }
+  
+  p {
+    color: black;
+  }
+  
+  .credits {
+    color: gold;
+  }
+  
+  /* Set the picture to a fixed place in the center of the screen and adjust its size */
+  img {
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
+  /* Set the footer styling */
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    border-radius: 25%;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.credits {
+    display: inline-block;
+}
+  
